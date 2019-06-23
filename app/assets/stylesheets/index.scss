@@ -1,3 +1,36 @@
 // Place all the styles related to the index controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+// Place all the styles related to the index controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+    background-color: black;
+    font-family: 'Roboto Slab',Georgia,"Times New Roman",serif;
+    font-weight: 500;
+}
+
+.navbar {
+    margin-bottom: 70px;
+}   
+.my-col{
+ float: right;
+
+}
+
+.display-4{
+    text-align: left;
+    color: yellowgreen;
+
+}
+.navbar .navbar-brand{ 
+    color: yellowgreen;
+
+}
+
+
+.navbar .navbar-nav .nav-item .nav-link{
+    color: yellowgreen;
+    font-family: 'Roboto Slab',Georgia,"Times New Roman",serif;
+    font-size: 1.5em;
+}
