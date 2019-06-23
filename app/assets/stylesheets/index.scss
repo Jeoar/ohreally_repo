@@ -5,13 +5,13 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 body {
-    background-color: black;
+    background-color: white;
     font-family: 'Roboto Slab',Georgia,"Times New Roman",serif;
     font-weight: 500;
 }
 
 .navbar {
-    margin-bottom: 70px;
+    margin-bottom: 30px;
 }   
 .my-col{
  float: right;
@@ -27,7 +27,12 @@ body {
     color: yellowgreen;
 
 }
+.flex-md-equal > * {
 
+    -ms-flex: 1;
+    flex: 1;
+
+}
 
 .navbar .navbar-nav .nav-item .nav-link{
     color: yellowgreen;
