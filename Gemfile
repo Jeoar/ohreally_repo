@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 ruby '>= 2.3.5', '< 2.6'
 
-#ruby '2.5.1'
+  #rails devise for authentication
+  gem 'devise'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
@@ -28,6 +29,11 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
+# use  simple form, (with bootstrap as help)
+gem 'simple_form' 
+# date picker
+gem 'bootstrap_form-datetimepicker'
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
@@ -51,6 +57,13 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+group :development do
+
+end
+
+group :production do
+  gem 'rails_12factor'
+end
 group :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 2.15'
